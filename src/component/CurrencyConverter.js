@@ -161,7 +161,7 @@ const Convertor = () => {
                 <h5>
                   {amount} {base} is equivalent to{' '}
                 </h5>
-                <h3>{result === null ? 'Calculating...' : result}</h3>
+                <h3>{result === null ? 'Calculating...' : result} {convertTo}</h3>
                 <p>As of {date === null ? '' : date}</p>
               </div>
             </div>
